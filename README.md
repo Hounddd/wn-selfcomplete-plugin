@@ -2,9 +2,7 @@
 
 A "text" formwidget which, like a "dropdown" field, offers options based on existing DB values.
 
-![](/docs/assets/Selfcomplete.gif)
-
-![Formwidget Selfcomplete in action](https://github.com/hounddd/wn-selfcomplete-plugin/blob/master/docs/images/Selfcomplete.gif?raw=true)
+![Formwidget Selfcomplete in action](https://github.com/hounddd/wn-selfcomplete-plugin/blob/master/docs/assets/Selfcomplete.gif?raw=true)
 
 ## Why this formwidget
 
