@@ -1,0 +1,22 @@
+{
+    "name": "hounddd/wn-selfcomplete-plugin",
+    "type": "winter-plugin",
+    "description": "",
+    "keywords": ["winter", "cms", "backend", "form", "field"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DamsFX - Damien MATHIEU",
+            "email": "contact@hounddd.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
