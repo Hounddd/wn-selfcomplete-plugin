@@ -78,8 +78,8 @@ class Selfcomplete extends FormWidgetBase
      */
     public function loadAssets()
     {
-        $this->addCss('css/Selfcomplete.css', 'Hounddd.SelfComplete');
-        $this->addJs('js/Selfcomplete.js', 'Hounddd.SelfComplete');
+        $this->addCss('css/selfcomplete.css', 'Hounddd.SelfComplete');
+        $this->addJs('js/selfcomplete.js', 'Hounddd.SelfComplete');
     }
 
     /**
