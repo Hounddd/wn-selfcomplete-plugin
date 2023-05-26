@@ -1,0 +1,49 @@
+/*
+ * This is a sample StyleSheet file used by {{ name }}
+ *
+ * You can delete this file if you want
+ */
+
+/*the container must be positioned relative:*/
+
+.selfcomplete {
+
+    --selfcomplete-max-items: 5;
+    --selfcomplete-hover-color: #e9e9e9;
+
+    &-items {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin-top: -1px;
+        max-height: calc(var(--selfcomplete-max-items, 5) * 32px);
+        border: 1px solid#d1d6d9;
+        border-bottom: none;
+        border-top: none;
+        overflow-x: hidden;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.075);
+        z-index: 99;
+        user-select: none;
+
+        div {
+            padding: 6px;
+            cursor: pointer;
+            background-color: #fff;
+
+            &:hover {
+                background-color: var(--selfcomplete-hover-color);
+            }
+        }
+    }
+
+    /*when navigating through the items using the arrow keys:*/
+    &-active {
+        background-color: DodgerBlue !important;
+        color: #ffffff;
+    }
+}
+
+
+
+

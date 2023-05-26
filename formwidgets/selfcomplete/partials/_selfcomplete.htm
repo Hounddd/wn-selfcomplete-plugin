@@ -14,9 +14,12 @@
             name="<?= $name ?>"
             value="<?= $value ?>"
             class="form-control"
-            selfcomplete="off" />
+            selfcomplete="off"
+         />
+            <!--
+            data-maxItems="2"
+            -->
     </div>
-
 
     <script>
         var values = <?= $this->getList() ?>;
