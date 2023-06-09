@@ -15,14 +15,11 @@
             value="<?= $value ?>"
             class="form-control"
             selfcomplete="off"
-         />
-            <!--
-            data-maxItems="2"
-            -->
-    </div>
 
-    <script>
-        var values = <?= $this->getList() ?>;
-        selfcomplete(document.getElementById("<?= $this->getId('input') ?>"), values);
-    </script>
+            data-control="selfcomplete"
+            data-maxItems="<?= $maxItems ?>"
+            data-available-values='<?= e(json_encode($this->getList())) ?>'
+            data-selfcomplete
+         />
+    </div>
 <?php endif ?>

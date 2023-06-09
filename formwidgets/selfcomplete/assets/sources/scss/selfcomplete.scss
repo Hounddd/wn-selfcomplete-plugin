@@ -9,7 +9,10 @@
 .selfcomplete {
 
     --selfcomplete-max-items: 5;
-    --selfcomplete-hover-color: #e9e9e9;
+    --selfcomplete-bgcolor: #ffffff;
+    --selfcomplete-bgcolor-hover: #e9e9e9;
+    --selfcomplete-active-color: #ffffff;
+    --selfcomplete-active-bgcolor: #1e90ff;
 
     &-items {
         position: absolute;
@@ -29,18 +32,18 @@
         div {
             padding: 6px;
             cursor: pointer;
-            background-color: #fff;
+            background-color: var(--selfcomplete-bgcolor, #ffffff);
 
             &:hover {
-                background-color: var(--selfcomplete-hover-color);
+                background-color: var(--selfcomplete-bgcolor-hover, #e9e9e9);
             }
         }
     }
 
     /*when navigating through the items using the arrow keys:*/
     &-active {
-        background-color: DodgerBlue !important;
-        color: #ffffff;
+        color: var(--selfcomplete-active-color, #ffffff);
+        background-color: var(--selfcomplete-active-bgcolor, #1e90ff) !important;
     }
 }
 

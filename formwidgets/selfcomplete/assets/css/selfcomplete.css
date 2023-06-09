@@ -1,10 +1,10 @@
 /*!
- * hounddd.selfcomplete - 1.0.0 - 20230526-204522
+ * hounddd.selfcomplete - 1.0.0 - 20230609-200414
  * Hounddd.SelfComplete Plugin for WinterCMS, provide new form widget for backend
  *
  * Damien MATHIEU - HOUNDDD (https://www.hounddd.fr/)
  *
- * filebase: selfcomplete.css - hash: 6ee13be9e9086aff
+ * filebase: selfcomplete.css - hash: e0ed84c54d565e00
  */
 
-.selfcomplete{--selfcomplete-max-items:5;--selfcomplete-hover-color:#e9e9e9}.selfcomplete-items{border:1px solid #d1d6d9;border-bottom:none;border-top:none;box-shadow:0 3px 6px rgba(0,0,0,.075);left:0;margin-top:-1px;max-height:-webkit-calc(var(--selfcomplete-max-items,5)*32px);max-height:calc(var(--selfcomplete-max-items, 5)*32px);overflow-x:hidden;position:absolute;right:0;top:100%;-webkit-user-select:none;user-select:none;z-index:99}.selfcomplete-items div{background-color:#fff;cursor:pointer;padding:6px}.selfcomplete-items div:hover{background-color:var(--selfcomplete-hover-color)}.selfcomplete-active{background-color:#1e90ff!important;color:#fff}
+.selfcomplete{--selfcomplete-max-items:5;--selfcomplete-bgcolor:#fff;--selfcomplete-bgcolor-hover:#e9e9e9;--selfcomplete-active-color:#fff;--selfcomplete-active-bgcolor:#1e90ff}.selfcomplete-items{border:1px solid #d1d6d9;border-bottom:none;border-top:none;box-shadow:0 3px 6px rgba(0,0,0,.075);left:0;margin-top:-1px;max-height:-webkit-calc(var(--selfcomplete-max-items,5)*32px);max-height:calc(var(--selfcomplete-max-items, 5)*32px);overflow-x:hidden;position:absolute;right:0;top:100%;-webkit-user-select:none;user-select:none;z-index:99}.selfcomplete-items div{background-color:var(--selfcomplete-bgcolor,#fff);cursor:pointer;padding:6px}.selfcomplete-items div:hover{background-color:var(--selfcomplete-bgcolor-hover,#e9e9e9)}.selfcomplete-active{background-color:var(--selfcomplete-active-bgcolor,#1e90ff)!important;color:var(--selfcomplete-active-color,#fff)}
