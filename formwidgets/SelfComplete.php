@@ -110,8 +110,8 @@ class Selfcomplete extends FormWidgetBase
      */
     public function loadAssets()
     {
-        $this->addCss('css/selfcomplete.css', 'Hounddd.SelfComplete');
-        $this->addJs('js/selfcomplete.js', 'Hounddd.SelfComplete');
+        $this->addCss('dist/css/selfcomplete.css', 'Hounddd.SelfComplete');
+        $this->addJs('dist/js/selfcomplete.js', 'Hounddd.SelfComplete');
     }
 
     /**
@@ -143,7 +143,7 @@ class Selfcomplete extends FormWidgetBase
             return $modelRecords;
         }
 
-        
+
         if ($this->modelClass == 'Winter\Pages\Classes\Page') {
             // TODO : Search inside page fields
             return collect([]);

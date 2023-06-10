@@ -31,8 +31,8 @@ mix.setPublicPath(__dirname);
 
 // Render Tailwind style
 mix
-    .sass('formwidgets/selfcomplete/assets/sources/scss/selfcomplete.scss', 'formwidgets/selfcomplete/assets/css')
-    .js('formwidgets/selfcomplete/assets/sources/js/selfcomplete.js', 'formwidgets/selfcomplete/assets/js')
+    .sass('formwidgets/selfcomplete/assets/src/scss/selfcomplete.scss', 'formwidgets/selfcomplete/assets/dist/css')
+    .js('formwidgets/selfcomplete/assets/src/js/selfcomplete.js', 'formwidgets/selfcomplete/assets/dist/js')
     .options({
         processCssUrls: false,
 
